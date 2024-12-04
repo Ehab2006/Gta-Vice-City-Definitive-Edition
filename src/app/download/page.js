@@ -1,30 +1,50 @@
 import Image from "next/image";
 
-export default function Home() {
+export const metadata = {
+  title:
+    "Download GTA Vice City Definitive Edition - Free PC & Console Edition",
+  description:
+    "Explore the world of GTA Vice City Definitive Edition. Learn how to get the game legally, discover tips, cheats, and everything you need to enhance your gaming experience.",
+  keywords: [
+    "GTA Vice City Definitive Edition",
+    "GTA download free",
+    "Grand Theft Auto Vice City",
+    "remastered GTA game",
+    "Vice City PC download",
+    "GTA Definitive Edition download",
+    "action-adventure games",
+    "free GTA game",
+  ],
+};
+
+export default function Download() {
   return (
     <div>
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src={"https://i.ibb.co/br2Vcz8/hero01.png"}
+            src={"https://i.ibb.co/LJv56KG/hero02.png"}
             className="max-w-sm"
             width={"500"}
             height={"500"}
-            style={{width:"100%" , height:"100%"}}
+            style={{ width: "100%", height: "100%" }}
+            alt="Gta Vice City - Phil Cassidy with Gun"
           />
           <div>
             <h1 className="text-shadow-pink text-5xl text-white font-bold lg:text-start text-center">
-              Gta Vice City Definitive Edition!
+              Download Gta Vice City Definitive Edition!
             </h1>
             <p className="text-shadow-pink py-6 text-white text-xl lg:text-start text-center">
-              The enhanced version of the popular Grand Theft Auto Vice City
-              game. The enhanced graphics feature more detail and higher
-              quality, with improvements to lighting and shadows to make the
-              city more realistic and attractive. The gameplay has also been
-              updated to include smoother controls, with fixes to old mechanics
-              and some tweaks that make the experience more enjoyable. New
-              features include improvements to artificial intelligence, as well
-              as updates to audio and music to match the aesthetics of the game.
+              Easily download GTA Vice City Definitive Edition.
+            </p>
+            <p className="text-shadow-pink text-white text-xl lg:text-start text-center">
+              OS: Windows 10 (64-bit).
+              <br />
+              Storage: 20 GB of available space.
+            </p>
+            <p className="text-shadow-pink py-6 text-white text-xl lg:text-start text-center">
+              <i class="fa-solid fa-circle-check mr-2"></i>Agree to the terms of
+              use or privacy policy of the site.
             </p>
             <div className="flex lg:justify-start justify-center">
               <a

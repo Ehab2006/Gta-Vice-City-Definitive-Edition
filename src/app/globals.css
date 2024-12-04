@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +15,24 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: linear-gradient(var(--background), rgb(21, 21, 21));
+  height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+  background: url("https://i.ibb.co/DwNNdhj/bg02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-shadow-pink {
+  text-shadow: -2px 0px 0px #f472b6;
+}
+
+footer {
+  box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.75) inset;
 }
