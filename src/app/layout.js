@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-    <meta name="google-site-verification" content="Q698GX49A7VZ8IG2Yz457sJDmBbgOLK65x34nJZuWIk" />
+ 
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -71,6 +71,7 @@ export default function RootLayout({ children }) {
         </div>
         <Footer />
         <Analytics />
+           <meta name="google-site-verification" content="Q698GX49A7VZ8IG2Yz457sJDmBbgOLK65x34nJZuWIk" />
       </body>
     </html>
   );
