@@ -48,7 +48,7 @@ export default function Download() {
             </p>
             <div className="flex lg:justify-start justify-center">
               <a
-                href="https://s579vla.storage.yandex.net/rdisk/fa00aeb6a8b3f0e26cad08a65baee723d6500c731a71033628c3bd4d568bee52/675ae294/v-15KkitP4d6CGgtD7rdlRkK3SXroTOydEId0ANKtF09SRxADxRIqNlTX31TomrzdDrdJkTbUtDtebpzj42ZEw==?uid=1430612300&filename=GTA-Vice-City-Definitive-Edition-DirectForGames.com.zip&disposition=attachment&hash=&limit=0&content_type=application%2Fzip&owner_uid=1430612300&fsize=10153880887&hid=d4a91ee39de6756e9133e09dbcbe381d&media_type=compressed&tknv=v2&etag=e95ab4a78e5d7892b323ce20d699f42b&ts=629128bcecd00&s=f62fb430541c7064fbae973fe5a1af8df4a74b443734a3250aaa715e445527be&pb=U2FsdGVkX18x6HpqVYBVZc6m73qJ29j02WDL4L6sYaw3HXnPV3RVwSzjTIlllVCd0wSQnDIpZtlv2D8La3FnrEg6oao27ET7kwCxdvwy460"
+                href="https://s421vla.storage.yandex.net/rdisk/069b4ac246ddd9e802eea478d6e5610ee1c44e79c9c76c218fca9eb64b19341a/675accb8/J00YuEGVzxb4DpQA3xTzAer6lQEHgV8r7lChfJpyzXQIlj8GvFj5VRKs1gmlLoBMqhpUy42N__X8XmcOzK0NxA==?uid=1503153631&filename=GTA-Vice-City-Definitive-Edition.zip&disposition=attachment&hash=&limit=0&content_type=application%2Fzip&owner_uid=1503153631&fsize=10153871827&hid=16b4c72f980d2ec230aa2992f34cf33b&media_type=compressed&tknv=v2&etag=a91752502a96a62bddcb294bb67c0f6b&ts=629113e429e00&s=99b82a913ddd4593f6002951fb54048a4e18ddf9f94fc89fae55244f07fb4983&pb=U2FsdGVkX1_9he6gHgk64auOq99jid494XDsCjDJ1zsVryBvCvQjd594435fuhl9XC7PhCMJg9I_DyvN4-QAg9EUZJwOg4CIxE_CuMWJ-kw"
                 className="btn btn-active border-none rounded-full text-xl bg-pink-400 text-white"
               >
                 Download Now <i class="fa-solid fa-circle-down"></i>
