@@ -28,7 +28,7 @@ export default function Home() {
             </p>
             <div className="flex lg:justify-start justify-center">
               <a
-                href="https://s421vla.storage.yandex.net/rdisk/069b4ac246ddd9e802eea478d6e5610ee1c44e79c9c76c218fca9eb64b19341a/675accb8/J00YuEGVzxb4DpQA3xTzAer6lQEHgV8r7lChfJpyzXQIlj8GvFj5VRKs1gmlLoBMqhpUy42N__X8XmcOzK0NxA==?uid=1503153631&filename=GTA-Vice-City-Definitive-Edition.zip&disposition=attachment&hash=&limit=0&content_type=application%2Fzip&owner_uid=1503153631&fsize=10153871827&hid=16b4c72f980d2ec230aa2992f34cf33b&media_type=compressed&tknv=v2&etag=a91752502a96a62bddcb294bb67c0f6b&ts=629113e429e00&s=99b82a913ddd4593f6002951fb54048a4e18ddf9f94fc89fae55244f07fb4983&pb=U2FsdGVkX1_9he6gHgk64auOq99jid494XDsCjDJ1zsVryBvCvQjd594435fuhl9XC7PhCMJg9I_DyvN4-QAg9EUZJwOg4CIxE_CuMWJ-kw"
+                href="https://pixeldrain.com/api/file/vcJmSrS9?download"
                 className="btn btn-active border-none rounded-full text-xl bg-pink-400 text-white"
               >
                 Download Now <i class="fa-solid fa-circle-down"></i>
