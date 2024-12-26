@@ -49,7 +49,7 @@ export default function NavBar() {
           <li className="text-lg font-bold text-shadow-pink">
             <details>
               <summary>Support</summary>
-              <ul className="bg-black p-2">
+              <ul className="bg-black p-2 z-50">
                 <li>
                   <Link href={"/faq"}>FAQ</Link>
                 </li>

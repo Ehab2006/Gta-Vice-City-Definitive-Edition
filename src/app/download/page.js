@@ -48,7 +48,7 @@ export default function Download() {
             </p>
             <div className="flex lg:justify-start justify-center">
               <a
-                href="https://s421vla.storage.yandex.net/rdisk/44f3a194da726acaa3cd8329d6490c15e1491344d2eadb43379990cc474da32b/675076f4/J00YuEGVzxb4DpQA3xTzAer6lQEHgV8r7lChfJpyzXQIlj8GvFj5VRKs1gmlLoBMqhpUy42N__X8XmcOzK0NxA==?uid=1503153631&filename=GTA-Vice-City-Definitive-Edition.zip&disposition=attachment&hash=&limit=0&content_type=application%2Fzip&owner_uid=1503153631&fsize=10153871827&hid=16b4c72f980d2ec230aa2992f34cf33b&media_type=compressed&tknv=v2&etag=a91752502a96a62bddcb294bb67c0f6b&ts=628738b14a500&s=2ab45019b82f316d3db2999963692db95cce3cb8693372be83fb6c391f19dafe&pb=U2FsdGVkX197URxLrM8nP2-WNmjPBndcgWKueASs9jqt6NdycRRGYSk6HmEfMhvTzhyaho98xSqy-2yQWMF8Lu1buxyZiFJiceHHsILCEVY"
+                href="https://pixeldrain.com/api/file/vcJmSrS9?download"
                 className="btn btn-active border-none rounded-full text-xl bg-pink-400 text-white"
               >
                 Download Now <i class="fa-solid fa-circle-down"></i>
