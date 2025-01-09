@@ -53,6 +53,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1961420632781690"
+     crossorigin="anonymous"></script>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
