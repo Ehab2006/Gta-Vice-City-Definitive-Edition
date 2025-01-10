@@ -53,8 +53,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1961420632781690"
-     crossorigin="anonymous"></script>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -66,10 +64,31 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script type="text/javascript">
+	atOptions = {
+		'key' : 'ce6548613fd44d06da2f2d8a83a694cf',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"></script>
         <div id="main">
           <NavBar />
+        
           {children}
         </div>
+  <script type="text/javascript">
+	atOptions = {
+		'key' : 'ce6548613fd44d06da2f2d8a83a694cf',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"></script>
         <Footer />
         <Analytics />
       </body>
