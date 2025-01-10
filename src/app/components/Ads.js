@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-export default function Ads(): JSX.Element {
+export default function Ads(){
     const banner = useRef<HTMLDivElement>()
 
     const atOptions = {
