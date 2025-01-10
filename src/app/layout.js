@@ -64,20 +64,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-	      <div>
-  <script
-    dangerouslySetInnerHTML={{
-      __html:
-        "  atOptions = {    'key' : 'ce6548613fd44d06da2f2d8a83a694cf',    'format' : 'iframe',    'height' : 90,    'width' : 728,    'params' : {}  };",
-    }}
-    type="text/javascript"
-  />
-  <script
-    src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"
-    type="text/javascript"
-  />
-</div>;
-
         <div id="main">
           <NavBar />
         
