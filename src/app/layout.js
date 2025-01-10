@@ -64,31 +64,25 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <script type="text/javascript">
-	atOptions = {
-		'key' : 'ce6548613fd44d06da2f2d8a83a694cf',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"></script>
+	      <div>
+  <script
+    dangerouslySetInnerHTML={{
+      __html:
+        "  atOptions = {    'key' : 'ce6548613fd44d06da2f2d8a83a694cf',    'format' : 'iframe',    'height' : 90,    'width' : 728,    'params' : {}  };",
+    }}
+    type="text/javascript"
+  />
+  <script
+    src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"
+    type="text/javascript"
+  />
+</div>;
+
         <div id="main">
           <NavBar />
         
           {children}
         </div>
-  <script type="text/javascript">
-	atOptions = {
-		'key' : 'ce6548613fd44d06da2f2d8a83a694cf',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"></script>
         <Footer />
         <Analytics />
       </body>
