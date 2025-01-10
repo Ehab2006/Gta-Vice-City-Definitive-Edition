@@ -64,6 +64,17 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script type="text/javascript">
+    atOptions = {
+	'key' : 'ce6548613fd44d06da2f2d8a83a694cf',
+	'format' : 'iframe',
+	'height' : 90,
+	'width' : 728,
+	'params' : {}
+	};
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/xxxx/invoke.js"></scr' + 'ipt>');
+
+</script>
         <div id="main">
           <NavBar />
         
