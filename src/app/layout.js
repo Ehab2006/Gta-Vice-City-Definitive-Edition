@@ -64,10 +64,16 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div>
+          <script type="text/javascript" src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"></script>
+        </div>
         <div id="main">
           <NavBar />
         
           {children}
+        </div>
+                <div>
+          <script type="text/javascript" src="//www.highperformanceformat.com/ce6548613fd44d06da2f2d8a83a694cf/invoke.js"></script>
         </div>
         <Footer />
         <Analytics />
