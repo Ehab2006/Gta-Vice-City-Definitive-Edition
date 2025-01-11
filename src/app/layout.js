@@ -64,6 +64,7 @@ export default function RootLayout({ children }) {
         />
             <meta name='admaven-placement' content='BrHrEqjr5' />
             <Script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1140684" />
+            <Script data-cfasync="false" src="/sw.js" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
