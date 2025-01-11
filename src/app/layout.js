@@ -1,4 +1,6 @@
 import localFont from "next/font/local";
+import Script from 'next/script';
+
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
 import NavBar from "./components/NavBar";
@@ -61,7 +63,7 @@ export default function RootLayout({ children }) {
           referrerpolicy="no-referrer"
         />
             <meta name='admaven-placement' content='BrHrEqjr5' />
-            <script src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1140684"></script>
+            <Script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1140684" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
