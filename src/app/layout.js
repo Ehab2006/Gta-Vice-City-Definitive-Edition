@@ -1,7 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
-import Ads from "./components/Ads";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
@@ -65,13 +64,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Ads />
         <div id="main">
           <NavBar />
         
           {children}
         </div>
-        <Ads />
         <Footer />
         <Analytics />
       </body>
