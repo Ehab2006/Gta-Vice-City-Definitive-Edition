@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
         />
-            <meta name='admaven-placement' content=BrHrEqjr5 />
+            <meta name='admaven-placement' content='BrHrEqjr5' />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
