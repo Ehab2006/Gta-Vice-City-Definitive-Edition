@@ -62,9 +62,6 @@ export default function RootLayout({ children }) {
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
         />
-            <meta name='admaven-placement' content='BrHrEqjr5' />
-            <Script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1140684" />
-            <Script data-cfasync="false" src="/sw.js" />
             <meta name="google-site-verification" content="Q698GX49A7VZ8IG2Yz457sJDmBbgOLK65x34nJZuWIk" />
       </head>
       <body
