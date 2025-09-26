@@ -14,7 +14,7 @@ export default function Footer() {
         <p className="font-bold text-lg">
           Rockstar Games, Inc.
           <br />
-          Providing reliable tech since 2021
+          Providing reliable tech since {new Date().getFullYear()}
         </p>
         <p className=" text-lg">
           Copyright © {new Date().getFullYear()} - All right reserved
